@@ -1,0 +1,16 @@
+.input {
+	border: 2px solid #33b46d;
+	border-radius: 0px 20px 0px 20px;
+	transition: border-radius 500ms, border 500ms, transform 500ms,
+		box-shadow 500ms ease;
+	box-shadow: 3px 3px 2px 1px #c0c0c0;
+	&:hover {
+		border: 2px solid #00d660;
+	}
+	&:focus {
+		box-shadow: 3px 3px 2px 1px #00d660;
+		transform: translateX(10px);
+		border: 2px solid #c0c0c0;
+		border-radius: 20px 0px 20px 0px;
+	}
+}

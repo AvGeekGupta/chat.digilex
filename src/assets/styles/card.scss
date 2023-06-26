@@ -1,0 +1,30 @@
+.card {
+	margin-bottom: 25px;
+	border: 3px solid #1a3f5a;
+	border-radius: 20px 0px 20px 0px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		transform: scale(1.02);
+	}
+
+	.card-title {
+		background-color: #33b46d;
+		color: #fff;
+		padding: 10px;
+		border-radius: 20px 0px 20px 0px;
+		margin-bottom: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			transform: scale(1.02);
+		}
+	}
+	.card-body {
+		padding: 10px;
+	}
+}

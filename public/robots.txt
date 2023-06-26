@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: 
+Disallow: /static/
+Sitemap: https://www.digilex.biz/sitemap.xml
